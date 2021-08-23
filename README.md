@@ -1,6 +1,6 @@
-# python3.6-blis-0.7.3
+# python3.6-blis-0.7.4
 
-Blis 0.7.3 for Python 3.6 running on the Nvidia Jetson Tegra.
+Blis 0.7.4 for Python 3.6 running on the Nvidia Jetson Tegra.
 
 
 ## How to use
@@ -8,21 +8,21 @@ Blis 0.7.3 for Python 3.6 running on the Nvidia Jetson Tegra.
 If you have `pip` (which should be run in a suitable virtual environment) this should work:
 
 ```sh
-pip install 'https://github.com/jetson-nano-wheels/python3.6-blis-0.7.3/releases/download/v0.0.1/blis-0.7.3-cp36-cp36m-linux_aarch64.whl'
+pip install 'https://github.com/jetson-nano-wheels/python3.6-blis-0.7.4/releases/download/v0.0.1/blis-0.7.4-cp36-cp36m-linux_aarch64.whl'
 ```
 
 
 ## How to contribute
 
-  1. [Fork this repo](https://github.com/jetson-nano-wheels/python3.6-blis-0.7.3/fork)
+  1. [Fork this repo](https://github.com/jetson-nano-wheels/python3.6-blis-0.7.4/fork)
   2. Add a branch for your new feature.
   3. Run the `init.sh` script.
 
 Like this:
 
 ```sh
-git clone git@github.com:jetson-nano-wheels/python3.6-blis-0.7.3
-cd python3.6-blis-0.7.3
+git clone git@github.com:jetson-nano-wheels/python3.6-blis-0.7.4
+cd python3.6-blis-0.7.4
 git checkout -b feature-my-fancy-addition
 ./init.sh
 ```
