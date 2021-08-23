@@ -10,3 +10,6 @@ fi
 
 pip install 'https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4/releases/download/v0.0.2/numpy-1.19.4-cp36-cp36m-linux_aarch64.whl'
 
+deactivate
+
+# Note to self: building blis from source did not work.
