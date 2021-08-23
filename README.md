@@ -11,18 +11,19 @@ If you have `pip` (which should be run in a suitable virtual environment) this s
 pip install 'https://github.com/jetson-nano-wheels/python3.6-blis-0.7.4/releases/download/v0.0.1/blis-0.7.4-cp36-cp36m-linux_aarch64.whl'
 ```
 
-
 ## How to contribute
 
   1. [Fork this repo](https://github.com/jetson-nano-wheels/python3.6-blis-0.7.4/fork)
-  2. Add a branch for your new feature.
-  3. Run the `init.sh` script.
+  2. Update submodules.
+  3. Add a branch for your new feature.
+  4. Run the `init.sh` script.
 
 Like this:
 
 ```sh
 git clone git@github.com:jetson-nano-wheels/python3.6-blis-0.7.4
 cd python3.6-blis-0.7.4
+git submodule update --recursive --init
 git checkout -b feature-my-fancy-addition
 ./init.sh
 ```
