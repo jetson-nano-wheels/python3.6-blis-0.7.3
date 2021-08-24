@@ -2,6 +2,7 @@
 
 Blis 0.7.4 for Python 3.6 running on the Nvidia Jetson Tegra.
 
+Blis [[Github](https://github.com/explosion/cython-blis), [pypi](https://pypi.org/project/blis/)] provides high-performance linear algebra and matrix multiplication, implementing the [Blis linear algebra routines](https://github.com/flame/blis) as a self-contained Python C-extension.
 
 ## How to use
 
